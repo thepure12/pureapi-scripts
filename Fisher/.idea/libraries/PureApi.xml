@@ -1,0 +1,83 @@
+<component name="libraryTable">
+  <library name="PureApi">
+    <CLASSES>
+      <root url="file:///home/renningert/workspace/osrs/PurePlugins/build/classes/java/test/" />
+      <root url="file:///home/renningert/workspace/osrs/PurePlugins/build/resources/test/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureBankStander/build/libs/PureBankStander-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureBankCleaner/build/libs/PureBankCleaner-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureBarrows/build/libs/PureBarrows-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureSarachnis/build/libs/PureSarachnis-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureGemstoneCrab/build/libs/PureGemstoneCrab-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureActionBar/build/libs/PureActionBar-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureTempoross/build/libs/PureTempoross-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureHunter/build/libs/PureHunter-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureCooker/build/libs/PureCooker-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureSqirkin/build/libs/PureSqirkin-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureChopper/build/libs/PureChopper-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PurePvmHelper/build/libs/PurePvmHelper-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureMageArena/build/libs/PureMageArena-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureLibrary/build/libs/PureLibrary-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureRooftops/build/libs/PureRooftops-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PurePlugins/PureTutorialIsland/build/libs/PureTutorialIsland-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/workspace/osrs/PureApi/build/libs/PureApi-1.0.0.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/client/1.13.1/d3dd13415169b9f4d9aff87d31e4b7b78cba2d77/client-1.13.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/jshell/1.13.1/77716bb8db728b87676e87828019f48ea9eee69c/jshell-1.13.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.fifesoft/autocomplete/3.1.1/462acc825af76747e8a90642d23150024cb9fd87/autocomplete-3.1.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.fifesoft/rsyntaxtextarea/3.5.1/b862174232441c6ed6361765ffc8b7e4584ca208/rsyntaxtextarea-3.5.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7/e4a258b7eb96107106c0599f0061cfc1832fe07a/asm-analysis-9.7.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7/e446a17b175bfb733b87c5c2560ccb4e57d69f1a/asm-tree-9.7.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/runelite-api/1.13.1/3dd65949205a0060efbb5d8d99775508394a7161/runelite-api-1.13.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite.arn/http-api/1.2.25/6d350fa72f9fdad186fc8f534636bb9d20115fb7/http-api-1.2.25.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/discord/1.4/5e3d040c8c8922d3e8cb900f532d7c08a748d687/discord-1.4.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/rlawt/1.8/f16657784ff32b98e108385bcf4ecfcf7185d67/rlawt-1.8.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.9/7d495522b08a9a66084bf417e70eedf95ef706bc/logback-classic-1.2.9.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.1/20f7d76f9d06033d68f1b8e58666e7c542e91f08/jopt-simple-5.0.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.2-jre/a1a3e54263d357d2ecadcb3f5e7eb6464c66fe93/guava-23.2-jre.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/faf9ee8ac09eafd1128091426dd367a8c0085d55/guice-4.1.0-no_aop.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/flatlaf-extras/3.2.5-rl4/1112b8c52e3c113b60747ed83d6ab9cbdb84f0/flatlaf-extras-3.2.5-rl4.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/flatlaf/3.2.5-rl4/b1fe47f883df98b5e948212089105ccb011a6ecb/flatlaf-3.2.5-rl4.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.2/74acdec7237f576c4803fff0c1008ab8a3808b2b/commons-text-1.2.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.9.0/c535a5bda553d7d7690356c825010da74b2671b5/jna-platform-5.9.0.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.9.0/8f503e6d9b500ceff299052d6be75b38c7257758/jna-5.9.0.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-javalite/3.21.12/e450dd89f2b4f79af08a9cb8ccbe62b25b1e7be8/protobuf-javalite-3.21.12.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/ee8e95be0b438602038bc1f02dc5e3d011b1b216/lwjgl-opengl-3.3.2.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/b8368430ef0d91a5acbc6fbfa47b20c3ec083aec/lwjgl-opengl-3.3.2-natives-linux.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/bb9eb56da6d1d549d6a767218e675e36bc568eb9/lwjgl-opengl-3.3.2-natives-linux-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/5141389ca737369f317b1288a570534c40db9cf/lwjgl-opengl-3.3.2-natives-macos.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/baadfd67936dcd7e0334dd3a9cf8dd13a0bcb009/lwjgl-opengl-3.3.2-natives-macos-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/22fa4149159154b24f6c1bd46a342d4958a9fba1/lwjgl-opengl-3.3.2-natives-windows-x86.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/83cd34469d4e0bc335bf74c7f62206530a9480bf/lwjgl-opengl-3.3.2-natives-windows.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/21df035bf03dbf5001f92291b24dc951da513481/lwjgl-opengl-3.3.2-natives-windows-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opencl/3.3.2/25cefb263d7da6d3328aab9db41b6d1ea256a134/lwjgl-opencl-3.3.2.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/4421d94af68e35dcaa31737a6fc59136a1e61b94/lwjgl-3.3.2.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/767684973f259d97e7dc66a125eb153986f177e7/lwjgl-3.3.2-natives-linux.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/8bd89332c90a90e6bc4aa997a25c05b7db02c90a/lwjgl-3.3.2-natives-linux-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/3256dce7fa36d6b572afa5e5730f532cf987f3bf/lwjgl-3.3.2-natives-macos.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/319eea74a8829ce92fd54ce7c684b6b6557c05bb/lwjgl-3.3.2-natives-macos-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/ed495259b2c8f068794da0ffedfa7ae7c130b3c5/lwjgl-3.3.2-natives-windows-x86.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/a55169ced70ffcd15f2162daf4a9c968578f6cd5/lwjgl-3.3.2-natives-windows.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/d900e4678449ba97ff46fa64b22e0376bf8cd00e/lwjgl-3.3.2-natives-windows-arm64.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/injected-client/1.13.1/6284da52b6b7d3e937b8c35ac0158ddc9673e843/injected-client-1.13.1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.9/3e6d101343c7ea687cd593e4990f73b25c878383/okhttp-3.14.9.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.9/cdaca0cf922c5791a8efa0063ec714ca974affe3/logback-core-1.2.9.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.7/557edd918fd41f9260963583ebf5a61a43a6b423/commons-lang3-3.7.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.github.weisj/jsvg/1.2.0/7a1dfd541dc48ca58e706c356d1604971f58db25/jsvg-1.2.0.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/net.runelite/rlicn/1.1/37e791f652c9f0c3390e0eca1c92215b66b4a42/rlicn-1.1-windows.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar!/" />
+      <root url="jar:///home/renningert/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://static.runelite.net/runelite-api/apidocs/" />
+      <root url="https://static.runelite.net/runelite-client/apidocs/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
