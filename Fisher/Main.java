@@ -16,9 +16,10 @@ import java.util.stream.Collectors;
  * Simple fisher. Clicks the nearest reachable fishing spot with the configured method and waits
  * while the player fishes. When the inventory is full it either drops everything except the kept
  * items, or banks them at the closest bank and walks back to where the script started.
+ * When no spot is in sight it walks back to the start tile, clicking the first spot it sees on the way.
  * Change the settings with the Scripter panel's Settings button; they apply while it runs.
  */
-@ScriptManifest(name = "Fisher", version = "1.2", description = "Fishes at the nearest spot, drops or banks")
+@ScriptManifest(name = "Fisher", version = "1.3", description = "Fishes at the nearest spot, drops or banks")
 public class Main extends Script {
 
     private enum Phase { FISH, DROP, BANK, RETURN }
@@ -33,6 +34,8 @@ public class Main extends Script {
 
     private Phase phase = Phase.FISH;
     private WorldPoint home;
+    /** Walking back to {@link #home} because no spot was in sight. */
+    private boolean searching;
     private int idle;
     private int wait;
     /** Ticks until the deposit is asked for again. */
@@ -81,7 +84,23 @@ public class Main extends Script {
             }
             phase = config.whenFull() == FisherConfig.WhenFull.BANK ? Phase.BANK : Phase.DROP;
             bankRetry = 0;
+            if (searching) {
+                api.walker.cancel();
+                searching = false;
+            }
             return;
+        }
+
+        String action = config.method().action;
+        Optional<NPC> spot = findSpot();
+        if (searching) {
+            if (!spot.isPresent()) {
+                walkHome();
+                return;
+            }
+            api.walker.cancel();
+            searching = false;
+            idle = config.idleTicks();
         }
 
         if (api.player.isAnimating() || api.player.isMoving()) {
@@ -91,18 +110,41 @@ public class Main extends Script {
         }
         if (++idle < config.idleTicks()) return;
 
-        String action = config.method().action;
-        NpcQuery spots = api.npcs.search().withAction(action);
-        if (!config.spotName().isEmpty()) spots = spots.withName(config.spotName());
-        Optional<NPC> spot = spots.nearestReachable();
         if (!spot.isPresent()) {
-            status("No spot with '" + action + "'");
+            if (api.player.getWorldLocation().distanceTo(home) > 1) {
+                searching = true;
+                walkHome();
+            } else {
+                status("No spot with '" + action + "', waiting at start");
+            }
             return;
         }
         if (api.npcs.interact(spot.get(), action)) {
             status("Clicking spot");
             idle = 0;
             wait = 3;
+        }
+    }
+
+    /** The nearest reachable spot with the configured method (and name, if set). */
+    private Optional<NPC> findSpot() {
+        NpcQuery spots = api.npcs.search().withAction(config.method().action);
+        if (!config.spotName().isEmpty()) spots = spots.withName(config.spotName());
+        return spots.nearestReachable();
+    }
+
+    /** Walks to the start tile while no spot is in sight; {@link #fish()} cancels it once one shows up. */
+    private void walkHome() {
+        if (api.player.getWorldLocation().distanceTo(home) <= 1) {
+            searching = false;
+            status("No spot with '" + config.method().action + "', waiting at start");
+            return;
+        }
+        status("No spot, walking to start");
+        if (!api.walker.isWalking()) {
+            if (stuck()) return;
+            api.walker.walkTo(home);
+            wait = 2;
         }
     }
 
